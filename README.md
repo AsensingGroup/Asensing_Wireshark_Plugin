@@ -16,7 +16,7 @@ $ sudo cp source/*.lua /usr/share/wireshark/
 
 Modify the `init.lua` file in the Wireshark installation directory, add the following content at the end:
 
-```bash
+```lua
 dofile(DATA_DIR.."xxx.lua")
 ```
 
